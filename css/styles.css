@@ -1,0 +1,161 @@
+/* ALL */
+html{
+    background-color: #d3d3d3;
+}
+body{
+    background-color: #fff;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px auto;
+    border: solid 1px black;
+}
+
+/* HEADER */
+
+.titre, .mainlogo {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.mainlogo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titre{
+    font-family: Oswald;
+    font-size: 40px;
+    font-weight:900;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0 15px;
+    border-top: solid rgb(139, 0, 0) 2px ; 
+    border-bottom: solid rgb(139, 0, 0) 2px;
+}
+
+.titre h1 {
+    padding-right: 10px;
+}
+
+.titre div{
+    /* font-family: sans-serif; */
+    font-size: 40%;
+    color: #fff;
+    border: 1px solid black;
+    padding: 6px 10px;
+    background-color: black;
+}
+
+
+/* MAIN */
+
+#MAIN {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#MAIN main:first-child {
+    background-color: #eee;
+    padding: 0 20px 30px 20px;
+    margin-top: 15px;
+}
+
+h2, h3 {
+    font-family: Oswald;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2{
+    font-size: 140%;
+    padding: 25px 0;
+}
+
+.arts img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.art1, .art2 {
+    padding: 15px 0;
+}
+
+hr {
+    border-top: solid 1px black;
+    margin: 0;
+}
+
+.art2 {
+    font-style: italic;
+    font-size: 75%;
+    text-align: center;
+}
+
+h3{
+    font-size: 120%;
+    color: rgb(139, 0, 0);
+}
+
+.art3 {
+    padding-top: 15px;
+}
+
+.art3 p:nth-child(2){
+    padding: 10px 0;
+}
+
+.actors a {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 75%;
+    display: block;
+    padding: 7px 0;
+    margin: 5px 0;
+    color: rgb(139, 0, 0);
+    background-color: #eee;
+    border-radius: 18px;
+}
+
+.actors a:hover{
+    color: black;
+    font-weight: bold;
+    background-color: brown;
+}
+
+.imageserie article {
+    width: 230px;
+    margin: 10px auto;
+    border: solid 1px #d9d9d9;
+    text-align: center;
+}
+
+.imageserie img {
+    width: 170px;
+    height: 120px;
+    display: block;
+    margin: 25px auto;
+}
+
+.imageserie p {
+    padding: 15px 0;
+}
+
+/* FOOTER */
+
+#FOOTER {
+    background-color: #eee;
+    margin: 15px;
+    height: 130px;
+}
+
+#FOOTER p {
+    text-align: center;
+    padding-top: 30px;
+}
